@@ -1,0 +1,74 @@
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    font-family: "Microsoft YaHei";
+    overflow-x: hidden;
+}
+.layout-top{
+    width: 100%;
+    margin-bottom: 30rpx;
+}
+.layout-bottom{
+    width: 100%;
+}
+.chinese{
+  text-align: right;
+  line-height: 38px;
+  height: 38px;
+}
+.screen {
+    text-align: right;
+    width: 100%;
+    line-height: 180rpx;
+    padding: 0 10rpx;
+    font-weight: bold;
+    font-size: 60px;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
+}
+.btnGroup {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+}
+.item {
+    width:25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+.item:active {
+    background-color: #979595bd;
+}
+.zero{
+    width: 50%;
+}
+.orange {
+    color: #7ebef3;
+    background: #e6e5e5;
+    font-weight: bold;
+    border:1px solid #ccc;
+}
+.blue {
+    color:#000000;
+    background-color: #fdfdfd;
+    border: 1px solid #ccc;
+}
+.iconBtn{
+    display: flex;
+}
+.icon{
+   display: flex;
+   align-items: center;
+   width:100%;
+   justify-content: center;
+   color: #7ebef3;
+}
